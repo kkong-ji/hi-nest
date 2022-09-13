@@ -48,7 +48,6 @@ describe('MoviesService', () => {
   })
 
   describe("deleteOne", () => {
-
     it("deletes a movie", () => {
       service.create({
         title: 'Test Movie',
@@ -86,7 +85,6 @@ describe('MoviesService', () => {
 
 
   describe("update", () => {
-
     it("should update a movie", () => {
       service.create({
         title: 'Test Movie',
